@@ -51,44 +51,6 @@
       <ul class="nav nav-list bs-docs-sidenav affix">
 
   <li>
-		<div class="accordion" id="api_chatroom">
-			<div class="accordion-group">
-				<div class="accordion-heading">
-					<a href="#api_api_chatroom" class="api_side_link">api_chatroom</a>
-					<div class="accordion-marker">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#api_chatroom" href="#collapse_api_chatroom">
-							 <span class="glyphicon glyphicon-chevron-right"></span>
-						</a>
-					</div>
-				</div>
-				<div class="accordion-body collapse" id="collapse_api_chatroom">
-					<div class="accordion-inner">
-					<ul class="indexs">
-					
-						<li>
-							<a href="#api_chatroom_exports_chatroomCreate">chatroomCreate</a>
-						</li>
-					
-						<li>
-							<a href="#api_chatroom_exports_chatroomDestroy">chatroomDestroy</a>
-						</li>
-					
-						<li>
-							<a href="#api_chatroom_exports_chatroomQuery">chatroomQuery</a>
-						</li>
-					
-						<li>
-							<a href="#api_chatroom_exports_chatroomUserQuery">chatroomUserQuery</a>
-						</li>
-					
-					</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-  </li>
-
-  <li>
 		<div class="accordion" id="api_common">
 			<div class="accordion-group">
 				<div class="accordion-heading">
@@ -108,15 +70,11 @@
 						</li>
 					
 						<li>
-							<a href="#api_common__getSignature">getSignature</a>
+							<a href="#api_common__sign">sign</a>
 						</li>
 					
 						<li>
 							<a href="#api_common__setOpts">setOpts</a>
-						</li>
-					
-						<li>
-							<a href="#api_common__getToken">getToken</a>
 						</li>
 					
 						<li>
@@ -131,22 +89,22 @@
   </li>
 
   <li>
-		<div class="accordion" id="api_group">
+		<div class="accordion" id="api_sms">
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a href="#api_api_group" class="api_side_link">api_group</a>
+					<a href="#api_api_sms" class="api_side_link">api_sms</a>
 					<div class="accordion-marker">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#api_group" href="#collapse_api_group">
+						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#api_sms" href="#collapse_api_sms">
 							 <span class="glyphicon glyphicon-chevron-right"></span>
 						</a>
 					</div>
 				</div>
-				<div class="accordion-body collapse" id="collapse_api_group">
+				<div class="accordion-body collapse" id="collapse_api_sms">
 					<div class="accordion-inner">
 					<ul class="indexs">
 					
 						<li>
-							<a href="#api_group__extend">extend</a>
+							<a href="#api_sms_exports_send_sms">send_sms</a>
 						</li>
 					
 					</ul>
@@ -157,26 +115,22 @@
   </li>
 
   <li>
-		<div class="accordion" id="api_history">
+		<div class="accordion" id="api_tts_singlecall">
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a href="#api_api_history" class="api_side_link">api_history</a>
+					<a href="#api_api_tts_singlecall" class="api_side_link">api_tts_singlecall</a>
 					<div class="accordion-marker">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#api_history" href="#collapse_api_history">
+						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#api_tts_singlecall" href="#collapse_api_tts_singlecall">
 							 <span class="glyphicon glyphicon-chevron-right"></span>
 						</a>
 					</div>
 				</div>
-				<div class="accordion-body collapse" id="collapse_api_history">
+				<div class="accordion-body collapse" id="collapse_api_tts_singlecall">
 					<div class="accordion-inner">
 					<ul class="indexs">
 					
 						<li>
-							<a href="#api_history_exports_historyFetch">historyFetch</a>
-						</li>
-					
-						<li>
-							<a href="#api_history_exports_historyDelete">historyDelete</a>
+							<a href="#api_tts_singlecall_exports_tts_singlecall">tts_singlecall</a>
 						</li>
 					
 					</ul>
@@ -187,22 +141,22 @@
   </li>
 
   <li>
-		<div class="accordion" id="api_message">
+		<div class="accordion" id="api_voice_doublecall">
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a href="#api_api_message" class="api_side_link">api_message</a>
+					<a href="#api_api_voice_doublecall" class="api_side_link">api_voice_doublecall</a>
 					<div class="accordion-marker">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#api_message" href="#collapse_api_message">
+						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#api_voice_doublecall" href="#collapse_api_voice_doublecall">
 							 <span class="glyphicon glyphicon-chevron-right"></span>
 						</a>
 					</div>
 				</div>
-				<div class="accordion-body collapse" id="collapse_api_message">
+				<div class="accordion-body collapse" id="collapse_api_voice_doublecall">
 					<div class="accordion-inner">
 					<ul class="indexs">
 					
 						<li>
-							<a href="#api_message__extend">extend</a>
+							<a href="#api_voice_doublecall_exports_voice_doublecall">voice_doublecall</a>
 						</li>
 					
 					</ul>
@@ -213,84 +167,22 @@
   </li>
 
   <li>
-		<div class="accordion" id="api_user">
+		<div class="accordion" id="api_voice_singlecall">
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a href="#api_api_user" class="api_side_link">api_user</a>
+					<a href="#api_api_voice_singlecall" class="api_side_link">api_voice_singlecall</a>
 					<div class="accordion-marker">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#api_user" href="#collapse_api_user">
+						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#api_voice_singlecall" href="#collapse_api_voice_singlecall">
 							 <span class="glyphicon glyphicon-chevron-right"></span>
 						</a>
 					</div>
 				</div>
-				<div class="accordion-body collapse" id="collapse_api_user">
+				<div class="accordion-body collapse" id="collapse_api_voice_singlecall">
 					<div class="accordion-inner">
 					<ul class="indexs">
 					
 						<li>
-							<a href="#api_user_exports_refresh">refresh</a>
-						</li>
-					
-						<li>
-							<a href="#api_user_exports_checkOnline">checkOnline</a>
-						</li>
-					
-						<li>
-							<a href="#api_user_exports_userBlock">userBlock</a>
-						</li>
-					
-						<li>
-							<a href="#api_user_exports_userUnblock">userUnblock</a>
-						</li>
-					
-						<li>
-							<a href="#api_user_exports_userBlockQuery">userBlockQuery</a>
-						</li>
-					
-						<li>
-							<a href="#api_user_exports_userBlacklistAdd">userBlacklistAdd</a>
-						</li>
-					
-						<li>
-							<a href="#api_user_exports_userBlacklistRemove">userBlacklistRemove</a>
-						</li>
-					
-						<li>
-							<a href="#api_user_exports_userBlacklistQuery">userBlacklistQuery</a>
-						</li>
-					
-					</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-  </li>
-
-  <li>
-		<div class="accordion" id="api_wordfilter">
-			<div class="accordion-group">
-				<div class="accordion-heading">
-					<a href="#api_api_wordfilter" class="api_side_link">api_wordfilter</a>
-					<div class="accordion-marker">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#api_wordfilter" href="#collapse_api_wordfilter">
-							 <span class="glyphicon glyphicon-chevron-right"></span>
-						</a>
-					</div>
-				</div>
-				<div class="accordion-body collapse" id="collapse_api_wordfilter">
-					<div class="accordion-inner">
-					<ul class="indexs">
-					
-						<li>
-							<a href="#api_wordfilter_exports_wordfilterAdd">wordfilterAdd</a>
-						</li>
-					
-						<li>
-							<a href="#api_wordfilter_exports_wordfilterDelete">wordfilterDelete</a>
-						</li>
-					
-						<li>
-							<a href="#api_wordfilter_exports_wordfilterList">wordfilterList</a>
+							<a href="#api_voice_singlecall_exports_voice_singlecall">voice_singlecall</a>
 						</li>
 					
 					</ul>
@@ -327,177 +219,6 @@
     </div>
     <div class="col-md-9">
       
-        <section id="api_api_chatroom" class="api">
-  <h2>api_chatroom: API索引</h2>
-  <ul class="indexs">
-  
-    <li>
-      <a href="#api_chatroom_exports_chatroomCreate">chatroomCreate</a>
-    </li>
-
-    <li>
-      <a href="#api_chatroom_exports_chatroomDestroy">chatroomDestroy</a>
-    </li>
-
-    <li>
-      <a href="#api_chatroom_exports_chatroomQuery">chatroomQuery</a>
-    </li>
-
-    <li>
-      <a href="#api_chatroom_exports_chatroomUserQuery">chatroomUserQuery</a>
-    </li>
-
-  </ul>
-  <hr />
-
-  
-  <h3 data-id="api_chatroom_exports_chatroomCreate">
-    chatroomCreate
-  </h3>
-  
-
-  <p>创建或加入聊天室<br /><a href="http://www.rongcloud.cn/docs/server.html#创建聊天室_方法">http://www.rongcloud.cn/docs/server.html#创建聊天室_方法</a><br />举例:</p><pre><code>// 创建或加入聊天室
-var chatroomData = {
-    &#39;chatroom[0001]&#39;: &#39;1号聊天室&#39;,
-    &#39;chatroom[0002]&#39;: &#39;2号聊天室&#39;,
-    &#39;chatroom[0003]&#39;: &#39;3号聊天室&#39;,
-    &#39;chatroom[0004]&#39;: &#39;4号聊天室&#39;,
-}
-var flag = yield api.chatroomCreate(chatroomData);
-if (flag){
-  // 操作成功
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.chatroomCreate()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>chatroomData(Array)</td>
-      <td colspan="2"><p>要创建或者加入的聊天室的数据结构（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_chatroom_exports_chatroomDestroy">
-    chatroomDestroy
-  </h3>
-  
-
-  <p>销毁聊天室<br /><a href="http://www.rongcloud.cn/docs/server.html#销毁聊天室_方法">http://www.rongcloud.cn/docs/server.html#销毁聊天室_方法</a><br />举例:</p><pre><code>// 销毁聊天室
-var chatroomId=[&#39;0001&#39;,&#39;0002&#39;,&#39;0003&#39;,&#39;0004&#39;];
-var flag = yield api.chatroomDestroy(chatroomId);
-if (flag){
-  // 操作成功
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.chatroomDestroy()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>chatroomId(Array)</td>
-      <td colspan="2"><p>要销毁的聊天室的数据结构（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_chatroom_exports_chatroomQuery">
-    chatroomQuery
-  </h3>
-  
-
-  <p>查询聊天室信息<br /><a href="http://www.rongcloud.cn/docs/server.html#查询聊天室信息_方法">http://www.rongcloud.cn/docs/server.html#查询聊天室信息_方法</a><br />举例:</p><pre><code>// 查询聊天室信息
-var chatroomId=[&#39;0001&#39;,&#39;0002&#39;];
-var chatRooms = yield api.chatroomQuery(chatroomId);
-if (chatRooms){
-  // 操作成功
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.chatroomQuery()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>chatroomId(Array)</td>
-      <td colspan="2"><p>要查询的聊天室（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_chatroom_exports_chatroomUserQuery">
-    chatroomUserQuery
-  </h3>
-  
-
-  <p>查询聊天室内用户<br /><a href="http://www.rongcloud.cn/docs/server.html#查询聊天室内用户_方法">http://www.rongcloud.cn/docs/server.html#查询聊天室内用户_方法</a><br />举例:</p><pre><code>// 查询聊天室内用户
-var chatroomId=&#39;0001&#39;;
-var users = yield api.chatroomUserQuery(chatroomId);
-if (users){
-  // 操作成功
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.chatroomUserQuery()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>chatroomId(String)</td>
-      <td colspan="2"><p>要查询的聊天室（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-</section>
-
-      
         <section id="api_api_common" class="api">
   <h2>api_common: API索引</h2>
   <ul class="indexs">
@@ -507,15 +228,11 @@ if (users){
     </li>
 
     <li>
-      <a href="#api_common__getSignature">getSignature</a>
+      <a href="#api_common__sign">sign</a>
     </li>
 
     <li>
       <a href="#api_common__setOpts">setOpts</a>
-    </li>
-
-    <li>
-      <a href="#api_common__getToken">getToken</a>
     </li>
 
     <li>
@@ -576,8 +293,8 @@ var api = new API(&quot;appkey&quot;, &quot;appsecret&quot;, &quot;use_https&quo
   </table>
   
   
-  <h3 data-id="api_common__getSignature">
-    getSignature
+  <h3 data-id="api_common__sign">
+    sign
   </h3>
   
 
@@ -590,7 +307,7 @@ var shasum = api.getSignature(&quot;nonce&quot;, &quot;timestamp&quot;);
   
     <tr>
       <td>方法</td>
-      <td colspan="3">API.prototype.getSignature()</td> 
+      <td colspan="3">API.prototype.sign()</td> 
     </tr>
   
 
@@ -643,56 +360,13 @@ var token = api.setOpts({
   </table>
   
   
-  <h3 data-id="api_common__getToken">
-    getToken
-  </h3>
-  
-
-  <p>换取用户的token<br />Examples:</p><pre><code>// 获取用户的token
-var token = yield api.getToken(userid, &lt;name&gt;, &lt;portrait_url&gt;);
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">API.prototype.getToken()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>userid(String)</td>
-      <td colspan="2"><p>用户的userid（必填）</p></td>
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>name(String)</td>
-      <td colspan="2"><p>姓名（选填）</p></td>
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>portrait_url(String)</td>
-      <td colspan="2"><p>头像url（选填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
   <h3 data-id="api_common_API_mixin">
     mixin
   </h3>
   
 
-  <p>用于支持对象合并。将对象合并到API.prototype上，使得能够支持扩展<br />Examples:</p><pre><code>// 加入用户管理模块
-API.mixin(require(&#39;./lib/api_user&#39;));
+  <p>用于支持对象合并。将对象合并到API.prototype上，使得能够支持扩展<br />Examples:</p><pre><code>// 加入发送短信的模块
+API.mixin(require(&#39;./lib/api_sms&#39;));
 </code></pre>
 
   <p>方法签名</p>
@@ -717,31 +391,45 @@ API.mixin(require(&#39;./lib/api_user&#39;));
 </section>
 
       
-        <section id="api_api_group" class="api">
-  <h2>api_group: API索引</h2>
+        <section id="api_api_sms" class="api">
+  <h2>api_sms: API索引</h2>
   <ul class="indexs">
   
     <li>
-      <a href="#api_group__extend">extend</a>
+      <a href="#api_sms_exports_send_sms">send_sms</a>
     </li>
 
   </ul>
   <hr />
 
   
-  <h3 data-id="api_group__extend">
-    extend
+  <h3 data-id="api_sms_exports_send_sms">
+    send_sms
   </h3>
   
 
-  
+  <p>发送短信<br /><a href="http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.a90QvS&amp;apiId=25450">http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.a90QvS&amp;apiId=25450</a><br />举例:</p><pre><code>// 发送短信
+var flag = yield api.send_sms(args);
+if (flag){
+  // 发送成功
+} else {
+  // 发送失败
+}
+</code></pre>
 
   <p>方法签名</p>
   <table class="table table-striped table-bordered table-hover table-condensed">
   
     <tr>
-      <td>声明</td>
-      <td colspan="3">extend</td> 
+      <td>方法</td>
+      <td colspan="3">exports.send_sms()</td> 
+    </tr>
+  
+
+    <tr>
+      <td>参数</td>
+      <td>args(Object)</td>
+      <td colspan="2"><p>请求的参数（必填）</p></td>
     </tr>
   
 
@@ -751,70 +439,29 @@ API.mixin(require(&#39;./lib/api_user&#39;));
 </section>
 
       
-        <section id="api_api_history" class="api">
-  <h2>api_history: API索引</h2>
+        <section id="api_api_tts_singlecall" class="api">
+  <h2>api_tts_singlecall: API索引</h2>
   <ul class="indexs">
   
     <li>
-      <a href="#api_history_exports_historyFetch">historyFetch</a>
-    </li>
-
-    <li>
-      <a href="#api_history_exports_historyDelete">historyDelete</a>
+      <a href="#api_tts_singlecall_exports_tts_singlecall">tts_singlecall</a>
     </li>
 
   </ul>
   <hr />
 
   
-  <h3 data-id="api_history_exports_historyFetch">
-    historyFetch
+  <h3 data-id="api_tts_singlecall_exports_tts_singlecall">
+    tts_singlecall
   </h3>
   
 
-  <p>消息历史记录下载地址获取<br /><a href="http://www.rongcloud.cn/docs/server.html#消息历史记录下载地址获取_方法">http://www.rongcloud.cn/docs/server.html#消息历史记录下载地址获取_方法</a><br />举例:</p><pre><code>// 消息历史记录下载地址获取
-var date=&#39;2014010101&#39;;
-var chat_data = yield api.historyFetch(date);
-if (chat_data){
-  // 操作成功
-  chat_data.url
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.historyFetch()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>date(String)</td>
-      <td colspan="2"><p>指定北京时间某天某小时，格式为2014010101,表示：2014年1月1日凌晨1点。（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_history_exports_historyDelete">
-    historyDelete
-  </h3>
-  
-
-  <p>消息历史记录删除<br /><a href="http://www.rongcloud.cn/docs/server.html#消息历史记录删除_方法">http://www.rongcloud.cn/docs/server.html#消息历史记录删除_方法</a><br />举例:</p><pre><code>// 消息历史记录删除
-var date=&#39;2014010101&#39;;
-var flag = yield api.historyDelete(date);
+  <p>文本转语音通知<br /><a href="http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.F0x8qp&amp;apiId=25444">http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.F0x8qp&amp;apiId=25444</a><br />举例:</p><pre><code>// 文本转语音通知
+var flag = yield api.tts_singlecall(args);
 if (flag){
-  // 操作成功
+  // 发送成功
 } else {
-  // 操作失败
+  // 发送失败
 }
 </code></pre>
 
@@ -823,14 +470,14 @@ if (flag){
   
     <tr>
       <td>方法</td>
-      <td colspan="3">exports.historyDelete()</td> 
+      <td colspan="3">exports.tts_singlecall()</td> 
     </tr>
   
 
     <tr>
       <td>参数</td>
-      <td>date(String)</td>
-      <td colspan="2"><p>指定北京时间某天某小时，格式为2014010101,表示：2014年1月1日凌晨1点。（必填）</p></td>
+      <td>args(Object)</td>
+      <td colspan="2"><p>请求的参数（必填）</p></td>
     </tr>
   
 
@@ -840,31 +487,45 @@ if (flag){
 </section>
 
       
-        <section id="api_api_message" class="api">
-  <h2>api_message: API索引</h2>
+        <section id="api_api_voice_doublecall" class="api">
+  <h2>api_voice_doublecall: API索引</h2>
   <ul class="indexs">
   
     <li>
-      <a href="#api_message__extend">extend</a>
+      <a href="#api_voice_doublecall_exports_voice_doublecall">voice_doublecall</a>
     </li>
 
   </ul>
   <hr />
 
   
-  <h3 data-id="api_message__extend">
-    extend
+  <h3 data-id="api_voice_doublecall_exports_voice_doublecall">
+    voice_doublecall
   </h3>
   
 
-  
+  <p>语音双呼<br /><a href="http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.56MDBW&amp;apiId=25443">http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.56MDBW&amp;apiId=25443</a><br />举例:</p><pre><code>// 语音双呼
+var flag = yield api.voice_doublecall(args);
+if (flag){
+  // 发送成功
+} else {
+  // 发送失败
+}
+</code></pre>
 
   <p>方法签名</p>
   <table class="table table-striped table-bordered table-hover table-condensed">
   
     <tr>
-      <td>声明</td>
-      <td colspan="3">extend</td> 
+      <td>方法</td>
+      <td colspan="3">exports.voice_doublecall()</td> 
+    </tr>
+  
+
+    <tr>
+      <td>参数</td>
+      <td>args(Object)</td>
+      <td colspan="2"><p>请求的参数（必填）</p></td>
     </tr>
   
 
@@ -874,57 +535,29 @@ if (flag){
 </section>
 
       
-        <section id="api_api_user" class="api">
-  <h2>api_user: API索引</h2>
+        <section id="api_api_voice_singlecall" class="api">
+  <h2>api_voice_singlecall: API索引</h2>
   <ul class="indexs">
   
     <li>
-      <a href="#api_user_exports_refresh">refresh</a>
-    </li>
-
-    <li>
-      <a href="#api_user_exports_checkOnline">checkOnline</a>
-    </li>
-
-    <li>
-      <a href="#api_user_exports_userBlock">userBlock</a>
-    </li>
-
-    <li>
-      <a href="#api_user_exports_userUnblock">userUnblock</a>
-    </li>
-
-    <li>
-      <a href="#api_user_exports_userBlockQuery">userBlockQuery</a>
-    </li>
-
-    <li>
-      <a href="#api_user_exports_userBlacklistAdd">userBlacklistAdd</a>
-    </li>
-
-    <li>
-      <a href="#api_user_exports_userBlacklistRemove">userBlacklistRemove</a>
-    </li>
-
-    <li>
-      <a href="#api_user_exports_userBlacklistQuery">userBlacklistQuery</a>
+      <a href="#api_voice_singlecall_exports_voice_singlecall">voice_singlecall</a>
     </li>
 
   </ul>
   <hr />
 
   
-  <h3 data-id="api_user_exports_refresh">
-    refresh
+  <h3 data-id="api_voice_singlecall_exports_voice_singlecall">
+    voice_singlecall
   </h3>
   
 
-  <p>刷新用户信息<br /><a href="http://www.rongcloud.cn/docs/server.html#刷新用户信息_方法">http://www.rongcloud.cn/docs/server.html#刷新用户信息_方法</a><br />举例:</p><pre><code>// 刷新用户信息
-var flag = yield api.refresh(userid, &lt;name&gt;, &lt;portrait_url&gt;);
+  <p>语音通知<br /><a href="http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.gZWjRM&amp;apiId=25445">http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.gZWjRM&amp;apiId=25445</a><br />举例:</p><pre><code>// 语音通知
+var flag = yield api.voice_singlecall(args);
 if (flag){
-  // 操作成功
+  // 发送成功
 } else {
-  // 操作失败
+  // 发送失败
 }
 </code></pre>
 
@@ -933,404 +566,14 @@ if (flag){
   
     <tr>
       <td>方法</td>
-      <td colspan="3">exports.refresh()</td> 
+      <td colspan="3">exports.voice_singlecall()</td> 
     </tr>
   
 
     <tr>
       <td>参数</td>
-      <td>userid(String)</td>
-      <td colspan="2"><p>用户的userid（必填）</p></td>
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>name(String)</td>
-      <td colspan="2"><p>姓名（选填）</p></td>
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>portrait_url(String)</td>
-      <td colspan="2"><p>头像url（选填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_user_exports_checkOnline">
-    checkOnline
-  </h3>
-  
-
-  <p>检测用户是否在线<br /><a href="http://www.rongcloud.cn/docs/server.html#检查用户在线状态_方法">http://www.rongcloud.cn/docs/server.html#检查用户在线状态_方法</a><br />举例:</p><pre><code>// 检测用户是否在线
-var flag = yield api.checkOnline(userid);
-if (flag){
-  // 在线
-} else {
-  // 不在线
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.checkOnline()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>userid(String)</td>
-      <td colspan="2"><p>用户的userid（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_user_exports_userBlock">
-    userBlock
-  </h3>
-  
-
-  <p>封禁用户<br /><a href="http://www.rongcloud.cn/docs/server.html#封禁用户_方法">http://www.rongcloud.cn/docs/server.html#封禁用户_方法</a><br />举例:</p><pre><code>// 封禁用户
-var flag = yield api.userBlock(userid, minute);
-if (flag){
-  // 操作成功
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.userBlock()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>userid(String)</td>
-      <td colspan="2"><p>用户的userid（必填）</p></td>
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>minute(String)</td>
-      <td colspan="2"><p>封禁时长,单位为分钟，最大值为43200分钟。（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_user_exports_userUnblock">
-    userUnblock
-  </h3>
-  
-
-  <p>解除封禁用户<br /><a href="http://www.rongcloud.cn/docs/server.html#解除封禁用户_方法">http://www.rongcloud.cn/docs/server.html#解除封禁用户_方法</a><br />举例:</p><pre><code>// 解除封禁用户
-var flag = yield api.userUnblock(userid);
-if (flag){
-  // 操作成功
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.userUnblock()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>userid(String)</td>
-      <td colspan="2"><p>用户的userid（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_user_exports_userBlockQuery">
-    userBlockQuery
-  </h3>
-  
-
-  <p>获取被封禁用户<br /><a href="http://www.rongcloud.cn/docs/server.html#获取被封禁用户_方法">http://www.rongcloud.cn/docs/server.html#获取被封禁用户_方法</a><br />举例:</p><pre><code>// 获取被封禁用户
-var users = yield api.userBlockQuery(userid);
-if (users){
-  // 操作成功，返回被封禁的用户清单
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.userBlockQuery()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>userid(String)</td>
-      <td colspan="2"><p>用户的userid（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_user_exports_userBlacklistAdd">
-    userBlacklistAdd
-  </h3>
-  
-
-  <p>添加用户到黑名单<br /><a href="http://www.rongcloud.cn/docs/server.html#添加用户到黑名单_方法">http://www.rongcloud.cn/docs/server.html#添加用户到黑名单_方法</a><br />举例:</p><pre><code>// 添加用户到黑名单
-var flag = yield api.userBlacklistAdd(userid, blackUserId);
-if (flag){
-  // 操作成功
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.userBlacklistAdd()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>userid(String)</td>
-      <td colspan="2"><p>用户的userid（必填）</p></td>
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>blackUserId(String)</td>
-      <td colspan="2"><p>被加黑的用户Id。（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_user_exports_userBlacklistRemove">
-    userBlacklistRemove
-  </h3>
-  
-
-  <p>从黑名单中移除用户<br /><a href="http://www.rongcloud.cn/docs/server.html#从黑名单中移除用户_方法">http://www.rongcloud.cn/docs/server.html#从黑名单中移除用户_方法</a><br />举例:</p><pre><code>// 从黑名单中移除用户
-var flag = yield api.userBlacklistRemove(userid, blackUserId);
-if (flag){
-  // 操作成功
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.userBlacklistRemove()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>userid(String)</td>
-      <td colspan="2"><p>用户的userid（必填）</p></td>
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>blackUserId(String)</td>
-      <td colspan="2"><p>被移除的用户Id。（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_user_exports_userBlacklistQuery">
-    userBlacklistQuery
-  </h3>
-  
-
-  <p>获取某用户的黑名单列表<br /><a href="http://www.rongcloud.cn/docs/server.html#获取某用户的黑名单列表_方法">http://www.rongcloud.cn/docs/server.html#获取某用户的黑名单列表_方法</a><br />举例:</p><pre><code>// 获取某用户的黑名单列表
-var users = yield api.userBlacklistQuery(userid);
-if (users){
-  // 操作成功，返回黑名单列表的用户清单
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.userBlacklistQuery()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>userid(String)</td>
-      <td colspan="2"><p>用户的userid（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-</section>
-
-      
-        <section id="api_api_wordfilter" class="api">
-  <h2>api_wordfilter: API索引</h2>
-  <ul class="indexs">
-  
-    <li>
-      <a href="#api_wordfilter_exports_wordfilterAdd">wordfilterAdd</a>
-    </li>
-
-    <li>
-      <a href="#api_wordfilter_exports_wordfilterDelete">wordfilterDelete</a>
-    </li>
-
-    <li>
-      <a href="#api_wordfilter_exports_wordfilterList">wordfilterList</a>
-    </li>
-
-  </ul>
-  <hr />
-
-  
-  <h3 data-id="api_wordfilter_exports_wordfilterAdd">
-    wordfilterAdd
-  </h3>
-  
-
-  <p>添加敏感词<br /><a href="http://www.rongcloud.cn/docs/server.html#添加敏感词_方法">http://www.rongcloud.cn/docs/server.html#添加敏感词_方法</a><br />举例:</p><pre><code>// 添加敏感词
-var flag = yield api.wordfilterAdd(word);
-if (flag){
-  // 操作成功
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.wordfilterAdd()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>word(String)</td>
-      <td colspan="2"><p>敏感词，最长不超过 32 个字符。（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_wordfilter_exports_wordfilterDelete">
-    wordfilterDelete
-  </h3>
-  
-
-  <p>移除敏感词<br /><a href="http://www.rongcloud.cn/docs/server.html#移除敏感词_方法">http://www.rongcloud.cn/docs/server.html#移除敏感词_方法</a><br />举例:</p><pre><code>// 移除敏感词
-var flag = yield api.wordfilterDelete(word);
-if (flag){
-  // 操作成功
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.wordfilterDelete()</td> 
-    </tr>
-  
-
-    <tr>
-      <td>参数</td>
-      <td>word(String)</td>
-      <td colspan="2"><p>敏感词，最长不超过 32 个字符。（必填）</p></td>
-    </tr>
-  
-
-  
-  </table>
-  
-  
-  <h3 data-id="api_wordfilter_exports_wordfilterList">
-    wordfilterList
-  </h3>
-  
-
-  <p>查询敏感词列表<br /><a href="http://www.rongcloud.cn/docs/server.html#查询敏感词列表_方法">http://www.rongcloud.cn/docs/server.html#查询敏感词列表_方法</a><br />举例:</p><pre><code>// 查询敏感词列表
-var words = yield api.wordfilterList();
-if (words){
-  // 操作成功，敏感词列表
-} else {
-  // 操作失败
-}
-</code></pre>
-
-  <p>方法签名</p>
-  <table class="table table-striped table-bordered table-hover table-condensed">
-  
-    <tr>
-      <td>方法</td>
-      <td colspan="3">exports.wordfilterList()</td> 
+      <td>args(Object)</td>
+      <td colspan="2"><p>请求的参数（必填）</p></td>
     </tr>
   
 
