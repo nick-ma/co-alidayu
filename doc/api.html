@@ -409,12 +409,7 @@ API.mixin(require(&#39;./lib/api_sms&#39;));
   
 
   <p>发送短信<br /><a href="http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.a90QvS&amp;apiId=25450">http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.a90QvS&amp;apiId=25450</a><br />举例:</p><pre><code>// 发送短信
-var flag = yield api.send_sms(args);
-if (flag){
-  // 发送成功
-} else {
-  // 发送失败
-}
+var ret = yield api.send_sms(args);
 </code></pre>
 
   <p>方法签名</p>
@@ -458,11 +453,6 @@ if (flag){
 
   <p>文本转语音通知<br /><a href="http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.F0x8qp&amp;apiId=25444">http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.F0x8qp&amp;apiId=25444</a><br />举例:</p><pre><code>// 文本转语音通知
 var flag = yield api.tts_singlecall(args);
-if (flag){
-  // 发送成功
-} else {
-  // 发送失败
-}
 </code></pre>
 
   <p>方法签名</p>
@@ -506,11 +496,6 @@ if (flag){
 
   <p>语音双呼<br /><a href="http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.56MDBW&amp;apiId=25443">http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.56MDBW&amp;apiId=25443</a><br />举例:</p><pre><code>// 语音双呼
 var flag = yield api.voice_doublecall(args);
-if (flag){
-  // 发送成功
-} else {
-  // 发送失败
-}
 </code></pre>
 
   <p>方法签名</p>
@@ -554,11 +539,6 @@ if (flag){
 
   <p>语音通知<br /><a href="http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.gZWjRM&amp;apiId=25445">http://open.taobao.com/doc2/apiDetail?spm=0.0.0.0.gZWjRM&amp;apiId=25445</a><br />举例:</p><pre><code>// 语音通知
 var flag = yield api.voice_singlecall(args);
-if (flag){
-  // 发送成功
-} else {
-  // 发送失败
-}
 </code></pre>
 
   <p>方法签名</p>
