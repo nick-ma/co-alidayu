@@ -7,15 +7,5 @@ API.mixin(require('./lib/api_voice_singlecall'));
 API.mixin(require('./lib/api_tts_singlecall'));
 // alibaba.aliqin.fc.voice.num.doublecall (语音双呼)
 API.mixin(require('./lib/api_voice_doublecall'));
-// 消息服务
-// API.mixin(require('./lib/api_message'));
-// // 敏感词服务
-// API.mixin(require('./lib/api_wordfilter'));
-// // 群组服务
-// API.mixin(require('./lib/api_group'));
-// // 聊天室服务
-// API.mixin(require('./lib/api_chatroom'));
-// // 消息历史记录服务
-// API.mixin(require('./lib/api_history'));
 
 module.exports = API;
