@@ -13,6 +13,8 @@ http://www.alidayu.com/
 详细参见[淘宝API文档](http://open.taobao.com/doc2/apiList?spm=0.0.0.0.pYsowQ&cid=20711)
 
 ## Changelog
+### 1.0.2
+- 修复生成时间戳的BUG
 ### 1.0.1
 - 调用方法的返回值改为JSON对象
 - 更新 README 
