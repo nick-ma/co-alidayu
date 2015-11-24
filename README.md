@@ -13,6 +13,9 @@ http://www.alidayu.com/
 详细参见[淘宝API文档](http://open.taobao.com/doc2/apiList?spm=0.0.0.0.pYsowQ&cid=20711)
 
 ## Changelog
+### 1.0.3
+- 修复util里前方补0的BUG
+
 ### 1.0.2
 - 修复生成时间戳的BUG
 
