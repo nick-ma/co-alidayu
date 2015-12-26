@@ -14,7 +14,7 @@ http://www.alidayu.com/
 
 ## Changelog
 ### 1.0.4
-- 修复util里格式化日起的错误
+- 修复util里格式化日期的错误
 - 开始增加test case
 
 ### 1.0.3

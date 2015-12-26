@@ -1,6 +1,6 @@
 {
   "name": "co-alidayu",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "阿里大鱼服务端Node库API，ES6版本",
   "main": "index.js",
   "scripts": {
