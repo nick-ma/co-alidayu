@@ -6,7 +6,11 @@ MOCHA = ./node_modules/mocha/bin/_mocha
 COVERALLS = ./node_modules/coveralls/bin/coveralls.js
 
 test:
-	@NODE_ENV=test $(MOCHA) -R $(REPORTER) -t $(TIMEOUT) \
+	@NODE_ENV=test ./node_modules/.bin/mocha \
+		--harmony \
+		--reporter $(REPORTER) \
+		--require co-mocha \
+		--timeout $(TIMEOUT) \
 		$(MOCHA_OPTS) \
 		$(TESTS)
 

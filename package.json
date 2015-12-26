@@ -26,15 +26,16 @@
     "crypto": "*"
   },
   "devDependencies": {
-    "mocha": "*",
-    "co-mocha": "1.0.3",
-    "expect.js": "*",
-    "travis-cov": "*",
+    "co-mocha": "^1.1.2",
     "coveralls": "*",
+    "expect.js": "*",
+    "istanbul": "*",
+    "mocha": "*",
     "mocha-lcov-reporter": "*",
     "muk": "*",
     "rewire": "*",
-    "istanbul-harmony": "*"
+    "travis-cov": "*",
+    "urllib": "*"
   },
   "author": {
     "name": "Nick Ma"

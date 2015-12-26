@@ -13,6 +13,10 @@ http://www.alidayu.com/
 详细参见[淘宝API文档](http://open.taobao.com/doc2/apiList?spm=0.0.0.0.pYsowQ&cid=20711)
 
 ## Changelog
+### 1.0.4
+- 修复util里格式化日起的错误
+- 开始增加test case
+
 ### 1.0.3
 - 修复util里前方补0的BUG
 
